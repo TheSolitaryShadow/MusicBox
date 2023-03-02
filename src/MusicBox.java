@@ -21,7 +21,9 @@ public class MusicBox {
         // -- TODO
         /* Initialise  the rest of the variables in this Constructor block*/
     }
-    
+    public MusicBox(String songID, char premiumSong, String artists){
+        this.isSongPremium = premiumSong;
+        this.songArtists = artists;}
     
     //Methods
     public String getSongID() {
